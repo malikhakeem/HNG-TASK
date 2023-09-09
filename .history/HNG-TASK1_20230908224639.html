@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./HNG-TASK!.css">
+
+    <title>HNG</title>
+    <script src="./HNG-TASK.js"></script>
+</head>
+
+<body>
+
+
+    <div class="body">
+        <div class="nav">
+            <div class="nav-left"><img data-testId="slackDisplayImage" class="profile-pic" src="./pic/kim.jpg"
+                    alt="Malik" /></div>
+            <div class="nav-mid">
+                <div class="slack-name">
+                    <h1>ABDULHAKEEM ABDULMALIK</h1>
+                </div>
+                <div class="track">
+                    <h2 data-testId="myTrack">Track: Frontend</h2>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a data-testId="githubURL" href="link address"><img src="./pic//github.svg" width="60" height="60"></a>
+            </div>
+
+
+        </div>
+        <script>
+            function updateTime() {
+                let currentTime = new Date();
+                let currentTimeMillis = currentTime.getTime();
+                let currentUTCTime = currentTime.toUTCString();
+
+                console.log("Current time in milliseconds: " + currentTimeMillis);
+                console.log("Current time in UTC: " + currentUTCTime);
+            }
+
+            setInterval(updateTime, 1000); // Run updateTime() every second
+            document.body.innerHTML = "<h1>Today's date is " + currentTime + "</h1>"
+        </script>
+    </div>
+
+</body>
+
+</html>

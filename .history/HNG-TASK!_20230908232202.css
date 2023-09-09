@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+.profile-pic{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+.nav{
+    /* display:flex;
+  
+    justify-content: space-between;
+    padding: 150px 100px 0px 100px; */
+}
+.nav-left{
+    padding-bottom: 30px;
+}
+.nav-right{
+    padding-top: 20px;
+}
+.time{
+    padding-bottom: 10px;
+}
+.task{
+
+padding-top: 30px;}
+
+.body{
+    display: flex;
+    display: block;
+    text-align: center;
+}
+.track{
+    padding-top: 20px;
+    color:rgb(226, 63, 63);
+}
+
+body{
+    padding:100px 0px 0px 0px;
+    color:white;
+    display:flex;
+ justify-content: center;
+   font-family: sans-serif;
+ background: #43688b; 
+}

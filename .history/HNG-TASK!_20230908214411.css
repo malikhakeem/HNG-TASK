@@ -1,0 +1,16 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+.profile-pic{
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 100px 0px 100px;
+}
